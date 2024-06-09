@@ -1,4 +1,3 @@
-Copy code
 # React Project Setup Guide
 
 This guide will walk you through setting up your React project locally. Follow the steps below to get your development environment up and running.
