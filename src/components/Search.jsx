@@ -23,9 +23,7 @@ function Search() {
 
   const debouncedResults = useCallback(
     // the debounce is set to 1000ms, meaning 'getResults' will only be called 1000ms after the user stops typing.
-    _.debounce((query) => getResult(query), 1000),
-    []
-  );
+    _.debounce((query) => getResult(query), 1000));
 
   return (
     <div
